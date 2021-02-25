@@ -36,7 +36,7 @@ const App = () => {
         <Button>Page 3</Button>
       </PaginationWrapper>
       <Link href="http://www.google.com">One Link</Link>
-      <Link href="http://www.google.com">Another Link</Link>
+      <Link href="http://www.facebook.com">Another Link</Link>
     </MainWrapper>
   );
 };
