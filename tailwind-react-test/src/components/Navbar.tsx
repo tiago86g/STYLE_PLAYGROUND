@@ -8,7 +8,7 @@ interface NavbarProps {
 export const Navbar: React.FC<NavbarProps> = ({ toggle }) => {
   return (
     <nav className="flex justify-between items-center h-16 text-black relative shadow-sm font-mono">
-      <Link to="/" className="pl-8 text-color-red">
+      <Link to="/" className="pl-8 color-red">
         AVOCADOS
       </Link>
       <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
